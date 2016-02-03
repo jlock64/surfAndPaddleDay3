@@ -1,1 +1,167 @@
+* {
+  font-family: 'Oswald', sans-serif;;
+}
 
+header {
+  position: relative;
+  background-image: url(surfImages/hero.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 525px;
+}
+
+.hero-overlay {
+  width: 100%;
+  height: 525px;
+  background-color: #2078BA;
+  opacity: .9;
+}
+
+.hero img {
+  width: 100%;
+  height: 525px;
+}
+
+nav {
+  position: relative;
+  width: 100%;
+  height: 50px;
+}
+
+.left-nav {
+  position: relative;
+  display: inline-block;
+  width: 30%;
+  left: 140px;
+  top: 12px;
+}
+.left-nav img {
+  width: 10%;
+  height: 35px;
+  width: 35px;
+  position: relative;
+  top: 11px;
+}
+.left-nav p {
+  display: inline-block;
+  position: absolute;
+  margin-left: 10px;
+  text-transform: uppercase;
+  color: #093858;
+  font-size: 20px;
+  top: -5px;
+}
+
+.right-nav {
+  position: relative;
+  display: inline-block;
+  width: 30%;
+  left: 500px;
+  top: 22px;
+}
+.right-nav ul {
+  margin: 0;
+  display: inline-block;
+  position: relative;
+  top: -10px;
+}
+.right-nav ul li {
+  display: inline-block;
+}
+.right-nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #093858;
+}
+.right-nav img {
+  position: relative;
+  top: -10px;
+  width: 4%;
+}
+
+.center-text {
+  position: relative;
+}
+.center-text h1 {
+  font-size: 100px;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: 80px;
+  font-family: arial;
+  letter-spacing: 3;
+}
+.center-text p {
+  text-align: center;
+  color: #093858;
+}
+
+.content-container {
+  margin: 0 auto;
+  width: 75%;
+  margin-top: 60px;
+}
+
+section, aside {
+  display: inline-block;
+  vertical-align: top;
+}
+
+aside {
+  width: 25%;
+  margin-left: 50px;
+}
+
+.main-content {
+  display: inline-block;
+  width: 68%;
+}
+.main-content h1 {
+  margin: 0;
+  font-size: 3.8em;
+  color: #083452;
+  text-transform: uppercase;
+  line-height: 1.1;
+}
+.main-content p {
+  color: #5E686F;
+}
+
+.author-update {
+  width: 100%;
+  height: 50px;
+  padding-top: 10px;
+}
+.author-update img {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+}
+.author-update p {
+  display: inline-block;
+  margin: 0;
+}
+#name {
+  color: #106DB3;
+  margin-left: 5px;
+  font-size: 16px;
+}
+.author-update span {
+  color: #A3B3BF;
+  padding-left: 10px;
+}
+.author-update a {
+  color: #A3B3BF;
+  margin-left: 5px;
+}
+
+.mid-content-headline {
+    border-left: 2px solid grey;
+    padding-left: 20px;
+    margin-left: 10px;
+}
+.mid-content-headline p {
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #106DB3;
+}
