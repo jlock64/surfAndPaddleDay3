@@ -212,6 +212,7 @@ aside {
 }
 
 .author-contact {
+  position: relative;
   text-align: center;
   margin-top: 20px;
   margin-right: 15px;
@@ -349,4 +350,15 @@ aside {
   color: #A3B3BF;
   text-decoration: none;
   font-size: 14px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba (0, 255, 0, .8);
 }
