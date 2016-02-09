@@ -1,0 +1,115 @@
+/************************************
+HEADER STYLING
+************************************/
+
+header {
+  position: relative;
+  background-image: linear-gradient(rgba(25, 116, 187, 0.7), rgba(25, 116, 187, 0.7)), url("../surfImages/hero.jpg");
+  // background-image: url(surfImages/hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 525px;
+}
+
+// .hero-overlay {
+//    position: absolute;
+//    top: 0;
+//    left: 0;
+//    width: 100%;
+//    height: 100%;
+//    background-color: #1974BB;
+//    opacity: 0.92;
+// }
+
+.hero img {
+  width: 100%;
+  height: 525px;
+}
+
+nav {
+  position: relative;
+  width: 100%;
+  height: 50px;
+}
+
+.left-nav {
+  position: relative;
+  display: inline-block;
+  width: 30%;
+  left: 140px;
+  top: 12px;
+}
+.left-nav img {
+  width: 10%;
+  height: 35px;
+  width: 35px;
+  position: relative;
+  top: 11px;
+}
+.left-nav p {
+  display: inline-block;
+  position: absolute;
+  margin-left: 10px;
+  text-transform: uppercase;
+  color: #093858;
+  font-size: 20px;
+  top: -5px;
+}
+
+.right-nav {
+  position: relative;
+  display: inline-block;
+  width: 30%;
+  left: 500px;
+  top: 22px;
+}
+.right-nav ul {
+  margin: 0;
+  padding-left: 100px;
+  display: inline-block;
+  position: relative;
+  top: -10px;
+}
+.right-nav li:first-child {
+  margin-right: 10px;
+}
+.right-nav ul li {
+  display: inline-block;
+}
+.right-nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #093858;
+}
+.right-nav img {
+  position: relative;
+  top: -9px;
+  width: 4%;
+}
+
+.center-text {
+  position: relative;
+}
+.center-text h1 {
+  position: relative;
+  font-size: 100px;
+  color: #fff;
+  text-align: center;
+  top: 80px;
+  font-family: 'Open Sans';
+  text-transform: uppercase;
+}
+.center-text p {
+  text-align: center;
+  color: #093858;
+}
+
+.content-container {
+  margin: 0 auto;
+  width: 75%;
+  margin-top: 60px;
+  border-bottom: 1px solid lightgrey;
+  margin-bottom: 20px;
+  padding-bottom: 60px;
+}
