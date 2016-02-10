@@ -16,6 +16,24 @@ aside {
   text-align: center;
   margin-top: 20px;
   margin-right: 15px;
+
+  p {
+    margin: 0;
+    color: #106DB3;
+    font-size: 20px;
+    text-transform: uppercase;;
+    letter-spacing: -1px;
+  }
+
+  a {
+    background-color: transparent;
+    font-size: 13px;
+    color: #A3B3BF;
+    text-decoration: none;
+    margin-left: 9px;
+  }
+
+
 }
 
 .author-image {
@@ -29,41 +47,24 @@ aside {
     margin-left: 32%;
     background-position-x: 100%;
 }
-// .author-contact img {
-//   width: 34%;
-//   border-radius: 100%;
-//   height: 90px;
-//   transform: rotateZ(-90deg);
-// }
-.author-contact p {
-  margin: 0;
-  color: #106DB3;
-  font-size: 20px;
-  text-transform: uppercase;;
-  letter-spacing: -1px;
-}
-.author-contact a {
-  background-color: transparent;
-  font-size: 13px;
-  color: #A3B3BF;
-  text-decoration: none;
-  margin-left: 9px;
-}
 
 .advertisement {
   position: relative;
   width: 100%;
   margin-top: 60px;
+
+  img {
+    width: 100%;
+    height: 270px;
+  }
+
+  a {
+    margin-left: 149px;
+    color: #A3B3BF;
+    font-size: 14px;
+  }
 }
-.advertisement img {
-  width: 100%;
-  height: 270px;
-}
-.advertisement a {
-  margin-left: 149px;
-  color: #A3B3BF;
-  font-size: 14px;
-}
+
 
 .sidebar-heading h3 {
   margin-bottom: -10px;
